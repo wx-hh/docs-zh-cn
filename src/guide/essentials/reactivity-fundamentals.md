@@ -91,7 +91,7 @@ count.value++
 console.log(count.value) // 1
 ```
 
-> 参考：[为 refs 标注类型](/guide/typescript/composition-api#typing-ref) <sup class="vt-badge ts" />
+> 参考：[为 ref 标注类型](/guide/typescript/composition-api#typing-ref) <sup class="vt-badge ts" />
 
 要在组件模板中访问 ref，请从组件的 `setup()` 函数中声明并返回它们：
 
